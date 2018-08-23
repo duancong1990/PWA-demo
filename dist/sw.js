@@ -5,9 +5,9 @@ let cacheName = 'pwa-demo-assets';
 let filesToCache;
 
 filesToCache = [
-    '/chorme-PwaDemo',
-    '/chorme-PwaDemo/index.html',
-    '/chorme-PwaDemo/manifest.json'
+    '/dist',
+    '/dist/index.html',
+    '/dist/manifest.json'
 ];
 
 self.addEventListener('install', function (e) {
