@@ -68,3 +68,9 @@ vue 和 渐进式应用合并。 发现 webpack 工具和 渐进式应用 配合
     npm run build  打包文件成功，放上自己的服务器， 进行访问。 这里打包的文件可以查看我的 gh-pages 分支下的目录。 因为没有服务器，所以我把文件放在 git 上的，这样通过 git 可以访问。 
     
     觉得有用的话，点个赞吧亲
+    
+    
+     ## 参考文献
+ `https://lzw.me/a/pwa-service-worker.html`
+ `https://segmentfault.com/a/1190000012353473#articleHeader3`
+ `https://developer.mozilla.org/zh-CN/docs/Web/Manifest`
