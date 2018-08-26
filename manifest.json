@@ -1,19 +1,20 @@
 {
     "short_name": "pwa",
     "name": "pwa - demo",
+    "description": "The app that helps you understand PWA", 
     "icons": [
         {
-            "src": "img/48.png",
+            "src": "/img/48.png",
             "type": "image/png",
             "sizes": "48x48"
         },
         {
-            "src": "img/96.png",
+            "src": "/img/96.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "./img/192.png",
+            "src": "/img/192.png",
             "type": "image/png",
             "sizes": "192x192"
         }

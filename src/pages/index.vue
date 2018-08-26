@@ -4,7 +4,7 @@
         <div class='img'>
             <!-- <img src='https://lorempixel.com/400/200/' ref='img'> -->
             <img src='./img/pic1.jpg' >
-            <img src='./img/pic2.jpg' >
+            <!-- <img src='./img/pic2.jpg' >
             <img src='./img/pic3.jpg' >
             <img src='./img/pic4.jpg' >
             <img src='./img/pic5.jpg' >
@@ -12,7 +12,7 @@
             <img src='./img/pic7.jpg' >
             <img src='./img/pic8.png' >
             <img src='./img/pic9.jpg' >
-            <img src='./img/pic10.jpg' >
+            <img src='./img/pic10.jpg' > -->
         </div>
         <div>
             <button>订阅图片</button>
