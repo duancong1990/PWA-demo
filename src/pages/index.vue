@@ -1,8 +1,18 @@
 <template>
     <div>
-        <div class='title'>welcome to this demo</div>
+        <div class='title'>欢迎试用PWA网页</div>
         <div class='img'>
-            <img src='https://lorempixel.com/400/200/' ref='img'>
+            <!-- <img src='https://lorempixel.com/400/200/' ref='img'> -->
+            <img src='./img/pic1.jpg' >
+            <img src='./img/pic2.jpg' >
+            <img src='./img/pic3.jpg' >
+            <img src='./img/pic4.jpg' >
+            <img src='./img/pic5.jpg' >
+            <img src='./img/pic6.jpg' >
+            <img src='./img/pic7.jpg' >
+            <img src='./img/pic8.png' >
+            <img src='./img/pic9.jpg' >
+            <img src='./img/pic10.jpg' >
         </div>
         <div>
             <button>订阅图片</button>
@@ -20,23 +30,23 @@
 export default {
     name: 'index',
     mounted () {
-        let img = this.$refs.img;
-        this.fresh(img);
+        // let img = this.$refs.img;
+        // this.fresh(img);
     },
     methods: {
         fresh (img) {
-            var imgFresh = setInterval(function () {
-                let testimg = document.createElement('img');
-                testimg.src = 'https://lorempixel.com/400/200/';
-                // 如果有网的话在刷新
-                testimg.onload = () => {
-                    img.src = 'https://lorempixel.com/400/200/';
-                }
-                testimg.onerror = () => {
-                    clearInterval(imgFresh);
-                    setTimeout(this.fresh, 180000);
-                };
-            }, 30000);
+            // var imgFresh = setInterval(function () {
+            //     let testimg = document.createElement('img');
+            //     testimg.src = 'https://lorempixel.com/400/200/';
+            //     // 如果有网的话在刷新
+            //     testimg.onload = () => {
+            //         img.src = 'https://lorempixel.com/400/200/';
+            //     }
+            //     testimg.onerror = () => {
+            //         clearInterval(imgFresh);
+            //         setTimeout(this.fresh, 180000);
+            //     };
+            // }, 30000);
         }
     }
 }
